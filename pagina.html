@@ -1,54 +1,116 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>  
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Juego Samurai</title>
-<link rel="stylesheet" href="css/style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina web basica</title>
+
 </head>
 <body>
-    <header class="hero">
-        <div class="textos-hero">
-            <h1>Bienvenido a la Empresa</h1>
-            <p>Creamos el mejor sitio web para ti</p>
-            <a href="#contactanos">Contactanos</a>
+
+    <div class="head">
+
+        <div class="logo">
+            <a href="#">Logo</a>
         </div>
-        <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspextRatio="none"style="height: 100%"><path d="M0.00.49.98C149.99.150.00.349.20.49.98 L500.00 Z" style="stroke: none; fill:#08f"></path></svg>
-    </header> 
-    
-    <section class="wave contenedor website">
-        <img src="img/background.png" alt="">
-        <div class="contenedor-textos-main">
-            <h2 class="titulo left">Tittle of section</h2>
-            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas sequi iste doloribus hic, nulla maiores animi asperiores quisquam libero?</p>
-            <a href="" class="cta">Learn more</a>
+
+        <nav class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Conacto</a>
+            <a href="#">Productos</a>
+            <a href="#">Precio</a>
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h2 class="title">Inicio</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Ipsam necessitatibus odio quisquam reprehenderit quas, 
+             obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
+            libero vero quia asperiores similique dicta.
+        </p>
+
+        <div class="btn-home">
+            <a href="#" class="btn">Saber mas</a>
+            <a href="#" class="btn">Saber mas</a>
+        </div>
+    </header>
+
+    <section class="content sau">
+
+        <h2 class="title">Productos</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+            elit. Veritatis excepturi dolore, harum asperiores 
+            cupiditate officiis quia odit reiciendis quidem iure 
+            architecto laudantium 
+            nihil saepe pariatur vel labore molestias consectetur veniam?</p>
         
-    </section>  
-    
-    <section class="contenedor">
-        <h2 class="titulo left">Videojuego de pelea</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div> 
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-apple"></i>
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <h3>Lorem</h3>
+                <p>labore molestias consectetur veniam</p>
+            </div>
+
+        </div>
+
     </section>
-    <h2 class="titulo">Our services</h2>
-    <div class="content cards"></div>
-    <article class="cards">
-        <i class="far fa-clone"></i>
-        <h3>Tittle card</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <a href=" " class="cta"> Learn more</a>
-    </article>
-    <script src="https:kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
-    <main>
-        <section>
-            <article>
-                <img src="Acerca de nosotros.jpg">
-            </article>
-        </section>
-    </main>
-    <footer>
-       Creado por equipo (Herbert Rivas, Rene Miranda, Paulina Presuel 6 B) 
-    </footer>
+
+    <section class="content about">
+
+        <h2 class="title">Nosotros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Ut soluta similique 
+            quia reprehenderit eligendi aliquam. Sit 
+            odio impedit quibusdam. Velit corporis, 
+            optio debitis quidem ex ipsam rerum dolorem autem sequi.
+        </p>
+
+        <a href="#" class="btn">Saber mas</a>
+
+    </section>
+
+    <section class="content price">
+
+        <article class="contain">
+            <h2 class="title">Precio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Ut soluta similique 
+                quia reprehenderit eligendi aliquam. Sit 
+                odio impedit quibusdam. Velit corporis, 
+                optio debitis quidem ex ipsam rerum dolorem autem sequi.
+            </p>
+
+            <a href="#" class="btn">Saber precio</a>
+
+        </article>
+
+    </section>
+
+    <section class="content contact">
+        <h2 class="title">Contacto</h2>
+        <p>48481548</p>
+        <figure class="map">
+            <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
+        </figure>
+    </section>
+    
 </body>
 </html>
