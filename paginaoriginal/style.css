@@ -190,3 +190,9 @@ p {
         display: none;
 }
 }
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
