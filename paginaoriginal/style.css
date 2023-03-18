@@ -83,10 +83,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
+    border: 2px solid #983b3b;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #983b3b;
 }
 
 .btn:hover {
@@ -104,6 +104,7 @@ p {
 
 
 .content {
+    background: url(1b57c146-6510-4e38-8edc-872bf3d8ab44.jpg) no-repeat center;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -141,14 +142,14 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #983b3b;
     font-size: 2rem;
     margin: 1rem 0;
 }
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #983b3b;
 
 }
 
