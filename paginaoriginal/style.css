@@ -27,11 +27,11 @@ body {
     margin-right: 10px;
 }
 
-.logo {
+.Reber {
     margin-left: 30px;
 }
 
-.logo a {
+.Reber a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -144,7 +144,6 @@ p {
     background: #9c27b0;
     font-size: 2rem;
     margin: 1rem 0;
-
 }
 
 .box-container .box h3 {
@@ -169,7 +168,6 @@ p {
     text-align: center;
 }
 
-
 .contact {
     padding-top: 20px;
     background: #171717;
@@ -190,7 +188,11 @@ p {
 
     .navbar {
         display: none;
-    }
-   
-    
+}
+}
+
+body {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
 }
