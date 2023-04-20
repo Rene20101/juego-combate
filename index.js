@@ -164,7 +164,7 @@ const keys = {
   }
 }
 
-decreaseTimer()
+// decreaseTimer(?)
 
 function animate() {
   window.requestAnimationFrame(animate)
