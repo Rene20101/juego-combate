@@ -174,21 +174,30 @@ class Fighter extends Sprite {
           this.framesCurrent = 0
         }
         break
-      case 'jump':
-        if (this.image !== this.sprites.jump.image) {
-          this.image = this.sprites.jump.image
-          this.framesMax = this.sprites.jump.framesMax
-          this.framesCurrent = 0
-        }
-        break
-
-      case 'fall':
-        if (this.image !== this.sprites.fall.image) {
-          this.image = this.sprites.fall.image
-          this.framesMax = this.sprites.fall.framesMax
-          this.framesCurrent = 0
-        }
-        break
+        case 'jump':
+          if (this.image !== this.sprites.jump.image) {
+            this.image = this.sprites.jump.image;
+            this.framesMax = this.sprites.jump.framesMax;
+            this.framesCurrent = 0;
+        
+            // Verificar si el jugador ya ha saltado
+            if (!this.hasJumped) {
+              this.velocity.y = -10; // Ajusta la velocidad de salto según sea necesario
+              this.hasJumped = true;
+            }
+          }
+          break;
+        
+        case 'fall':
+          if (this.image !== this.sprites.fall.image) {
+            this.image = this.sprites.fall.image;
+            this.framesMax = this.sprites.fall.framesMax;
+            this.framesCurrent = 0;
+        
+            // Reinicia la variable hasJumped para permitir otro salto
+            this.hasJumped = false;
+          }
+          break;
 
       case 'attack1':
         if (this.image !== this.sprites.attack1.image) {
