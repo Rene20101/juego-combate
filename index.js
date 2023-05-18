@@ -43,8 +43,8 @@ const player = new Fighter({
   framesMax: 8,
   scale: 2.5,
   offset: {
-    x: 215,
-    y: 157
+    x: 15,
+    y: 65
   },
   sprites: {
     idle: {
@@ -78,7 +78,7 @@ const player = new Fighter({
   },
   attackBox: {
     offset: {
-      x: 100,
+      x: 10,
       y: 50
     },
     width: 160,
@@ -104,8 +104,8 @@ const enemy = new Fighter({
   framesMax: 4,
   scale: 2.5,
   offset: {
-    x: 215,
-    y: 167
+    x: -75,
+    y: 67
   },
   sprites: {
     idle: {
@@ -139,7 +139,7 @@ const enemy = new Fighter({
   },
   attackBox: {
     offset: {
-      x: -170,
+      x: -120,
       y: 50
     },
     width: 170,
