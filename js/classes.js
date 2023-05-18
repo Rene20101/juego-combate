@@ -194,8 +194,10 @@ class Fighter extends Sprite {
             this.framesMax = this.sprites.fall.framesMax;
             this.framesCurrent = 0;
         
-            // Reinicia la variable hasJumped para permitir otro salto
-            this.hasJumped = false;
+            // Reinicia la variable hasJumped para permitir otro salto solo si el jugador ya ha caído
+            if (this.velocity.y > 0) {
+              this.hasJumped = false;
+            }
           }
           break;
 
