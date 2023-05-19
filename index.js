@@ -6,7 +6,7 @@ canvas.height = 576
 
 c.fillRect(0, 0, canvas.width, canvas.height)
 
-const gravity = 0.7
+const gravity = 0.9 
 
 const background = new Sprite({
   position: {
@@ -44,12 +44,12 @@ const player = new Fighter({
   scale: 2.5,
   offset: {
     x: 15,
-    y: 65
+    y: -32
   },
   sprites: {
     idle: {
       imageSrc: './img/samuraiMack/Idle.png',
-      framesMax: 8
+      framesMax: 10
     },
     run: {
       imageSrc: './img/samuraiMack/Run.png',
@@ -57,23 +57,23 @@ const player = new Fighter({
     },
     jump: {
       imageSrc: './img/samuraiMack/Jump.png',
-      framesMax: 2
+      framesMax: 3
     },
     fall: {
       imageSrc: './img/samuraiMack/Fall.png',
-      framesMax: 2
+      framesMax: 3
     },
     attack1: {
       imageSrc: './img/samuraiMack/Attack1.png',
-      framesMax: 6
+      framesMax: 7
     },
     takeHit: {
-      imageSrc: './img/samuraiMack/Take Hit - white silhouette.png',
-      framesMax: 4
+      imageSrc: './img/samuraiMack/Take Hit.png',
+      framesMax: 3
     },
     death: {
       imageSrc: './img/samuraiMack/Death.png',
-      framesMax: 6
+      framesMax: 11
     }
   },
   attackBox: {
