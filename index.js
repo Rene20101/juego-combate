@@ -286,6 +286,9 @@ window.addEventListener('keydown', (event) => {
       case ' ':
         player.attack()
         break
+      case 'v':
+        player.attack()
+        break
     }
   }
 
@@ -305,6 +308,10 @@ window.addEventListener('keydown', (event) => {
       case 'ArrowDown':
         enemy.attack()
 
+        break
+      case 'm':
+        enemy.attack()
+  
         break
     }
   }
