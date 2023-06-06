@@ -67,6 +67,10 @@ const player = new Fighter({
       imageSrc: './img/samuraiMack/Attack1.png',
       framesMax: 7
     },
+    attack2: {
+      imageSrc: './img/samuraiMack/Attack2.png',
+      framesMax: 7
+    },
     takeHit: {
       imageSrc: './img/samuraiMack/Take Hit.png',
       framesMax: 3
@@ -126,6 +130,10 @@ const enemy = new Fighter({
     },
     attack1: {
       imageSrc: './img/kenji/Attack1.png',
+      framesMax: 4
+    },
+    attack2: {
+      imageSrc: './img/kenji/Attack2.png',
       framesMax: 4
     },
     takeHit: {
@@ -286,6 +294,9 @@ window.addEventListener('keydown', (event) => {
       case ' ':
         player.attack()
         break
+      case 'v':
+        player.attack()
+        break
     }
   }
 
@@ -305,6 +316,10 @@ window.addEventListener('keydown', (event) => {
       case 'ArrowDown':
         enemy.attack()
 
+        break
+      case 'm':
+        enemy.attack()
+  
         break
     }
   }
